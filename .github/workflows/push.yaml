@@ -20,7 +20,7 @@ jobs:
           organization: 'testing_redocly'
           project: 'phronesis-visperity'
           mountPath: '/cicd'
-          files: ''
+          files: '*'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
