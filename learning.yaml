@@ -53,7 +53,7 @@ paths:
         '204':
           description: OK (no content).
         '400':
-          $ref: '#/components/responses/badRequest'
+          $ref: '#/components/responses/badRequestt'
   /quizzes:
     post:
       tags:
